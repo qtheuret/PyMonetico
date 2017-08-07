@@ -83,7 +83,7 @@ class TransactionsSearch(object):
             'Date_Debut': self.date_from and self.date_from.strftime('%d/%m/%Y') or '',
             'Date_Fin': self.date_to and self.date_to.strftime('%d/%m/%Y') or '',
             'SelectionCritere': self.type,
-            'dnfta_Reference': self.type == 'Reference' and self.ref or None,
+            'dnfta_Reference': self.type == 'Reference' and self.ref or '',
             'Paye': self.paid and 'on' or None,
             'Paye.p': '',
             'Refuse': self.refused and 'on' or None,

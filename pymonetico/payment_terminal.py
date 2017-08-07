@@ -13,7 +13,7 @@ LOGOUT_URL = 'https://www.monetico-services.com/fr/identification/deconnexion/de
 LOGIN_URL = 'https://www.monetico-services.com/fr/identification/authentification.html'
 HOME_URL = 'https://www.monetico-services.com/fr/client/Accueil.aspx'
 SEARCH_URL = 'https://www.monetico-services.com/fr/client/Paiement/Paiement_RechercheAvancee.aspx' \
-             '?__EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE='
+             '?__EVENTTARGET=&__EVENTARGUMENT='
 
 
 class PaymentTerminal(object):
